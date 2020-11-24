@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:weightSum="2"
+    android:gravity="center"
+    android:background="#000000"
+
+
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/blue"
+
+        android:rotation="90"
+        android:background="#0000ff"
+        android:textColor="#ff0000"
+        android:text="0"
+        android:textSize="50dp"/>
+
+        <!-- android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0000ff"
+        android:textColor="#ff0000"
+        android:text="0"
+        android:textSize="50dp" -->
+
+    <Button
+
+
+        android:layout_gravity="center"
+        android:id="@+id/red"
+        android:layout_margin="20dp"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:rotation="90"
+        android:text="0"
+        android:background="#ff0000"
+        android:textSize="50dp"
+        android:textColor="#0000ff"/>
+
+
+    <!--android:id="@+id/red"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#ff0000"
+    android:textSize="50dp"
+    android:textColor="#0000ff"
+
+    android:text=""-->
+</LinearLayout>
